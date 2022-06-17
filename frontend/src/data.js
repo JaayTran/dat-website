@@ -36,6 +36,17 @@ const data = {
       numReviews: 10,
       description: "high quality product",
     },
+
+    "slug": "attachment_handguard"
+    "category": "Attachments"
+    "image": "/images/attachment_Handguard.webp"
+    "price": "13.86"
+    "countInStock": "10"
+    "brand": "Commission"
+    "rating": "4.5"
+    "numReviews": "10"
+    "description": "high quality product"
+
     {
       name: "Lynx Blaster",
       slug: "blaster_lynx",
