@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      // _id: "1",
       name: "Scar Barrel Attachment",
       slug: "attachment_scar_barrel",
       category: "Attachments",
@@ -13,6 +14,7 @@ const data = {
       description: "high quality product",
     },
     {
+      // _id: "2",
       name: "Cheekrest Attachment",
       slug: "attachment_cheekrest",
       category: "Attachments",
@@ -25,6 +27,7 @@ const data = {
       description: "high quality product",
     },
     {
+      // _id: "3",
       name: "HandGuard Attachment",
       slug: "attachment_handguard",
       category: "Attachments",
@@ -37,6 +40,7 @@ const data = {
       description: "high quality product",
     },
     {
+      //_id: "4",
       name: "Lynx Blaster",
       slug: "blaster_lynx",
       category: "Blaster",
@@ -49,6 +53,7 @@ const data = {
       description: "high quality product",
     },
     {
+      // _id: "5",
       name: "Caliburn Blaster",
       slug: "blaster_caliburn",
       category: "Blaster",
@@ -61,6 +66,7 @@ const data = {
       description: "high quality product",
     },
     {
+      //_id: "6",
       name: "Noble Charm",
       slug: "charm_Noble",
       category: "Charms",
@@ -73,6 +79,7 @@ const data = {
       description: "high quality product",
     },
     {
+      //_id: "7",
       name: "Super Charm",
       slug: "charm_Super",
       category: "Charms",
@@ -85,6 +92,7 @@ const data = {
       description: "high quality product",
     },
     {
+      // _id: "8",
       name: "Sweep Charm",
       slug: "charm_Sweep",
       category: "Charms",
