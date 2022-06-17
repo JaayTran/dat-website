@@ -6,7 +6,7 @@ const data = {
       category: "Attachments",
       image: "/images/attachment_Barrel.webp", // 679px × 829px
       price: 7.52,
-      countInStock: 10,
+      countInStock: 0,
       brand: "Personal",
       rating: 4.5,
       numReviews: 10,
