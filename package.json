@@ -1,7 +1,6 @@
 {
   "name": "dat-website",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install --force && npm run build",
@@ -17,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/JaayTran/dat-website/issues"
   },
-  "homepage": "https://github.com/JaayTran/dat-website#readme"
+  "homepage": "https://github.com/JaayTran/dat-website#readme",
+  "description": ""
 }
