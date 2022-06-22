@@ -32,9 +32,9 @@ const data = {
     {
       // _id: "2",
       name: "Cheekrest Attachment",
-      slug: "attachment_cheekrest",
+      slug: "attachment_Cheekrest",
       category: "Attachments",
-      image: "/images/attachment_cheekrest.webp", // 679px × 829px
+      image: "/images/attachment_Cheekrest.webp", // 679px × 829px
       price: 5.83,
       countInStock: 10,
       brand: "Personal",
@@ -45,7 +45,7 @@ const data = {
     {
       // _id: "3",
       name: "HandGuard Attachment",
-      slug: "attachment_handguard",
+      slug: "attachment_Handguard",
       category: "Attachments",
       image: "/images/attachment_Handguard.webp", // 679px × 829px
       price: 13.86,
@@ -60,7 +60,7 @@ const data = {
       name: "Lynx Blaster",
       slug: "blaster_lynx",
       category: "Blaster",
-      image: "/images/blaster_lynx.webp", // 679px × 829px
+      image: "/images/blaster_Lynx.webp", // 679px × 829px
       price: 74.32,
       countInStock: 10,
       brand: "Commission",
@@ -73,7 +73,7 @@ const data = {
       name: "Caliburn Blaster",
       slug: "blaster_caliburn",
       category: "Blaster",
-      image: "/images/blaster_caliburn.webp", // 679px × 829px
+      image: "/images/blaster_Caliburn.webp", // 679px × 829px
       price: 89.97,
       countInStock: 10,
       brand: "Commission",
