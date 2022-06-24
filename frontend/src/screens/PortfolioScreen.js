@@ -1,24 +1,16 @@
 import React from "react";
 
-export default function LandingScreen() {
+export default function PortfolioScreen() {
   return (
     <div className="landing-background">
-      <img
-        src="../../images/profile_pic.webp"
-        alt="profile"
-        className="contact-picture"
-      ></img>
-      <div className="contact-info-container">
-        <p className="contact-info-item"> email@whatever.com </p>
-        <p className="contact-info-item"> phone number</p>
-      </div>
-      <div className="contact-info-container">
-        <p className="contact-info-item"> thingverse? </p>
-        <p className="contact-info-item"> linkedin?</p>
-      </div>
       <div className="about-text-container">
-        <h1> Welcome </h1>
-        <div>
+        <div className="project-text-right">
+          <img
+            src="../../images/profile_pic.webp"
+            alt="profile"
+            className="project-image-left"
+          ></img>
+          <h1> Projects </h1>
           <p className="about-text-content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -35,9 +27,16 @@ export default function LandingScreen() {
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.
-            <br />
-            <br />
-            <br />
+          </p>
+        </div>
+        <div className="project-text-left">
+          <img
+            src="../../images/profile_pic.webp"
+            alt="profile"
+            className="project-image-right"
+          ></img>
+          <h1> Projects </h1>
+          <p className="about-text-content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -53,27 +52,16 @@ export default function LandingScreen() {
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.
-            <br />
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-            <br />
-            <br />
-            <br />
+          </p>
+        </div>
+        <div className="project-text-right">
+          <img
+            src="../../images/profile_pic.webp"
+            alt="profile"
+            className="project-image-left"
+          ></img>
+          <h1> Projects </h1>
+          <p className="about-text-content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

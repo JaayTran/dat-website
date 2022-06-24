@@ -84,3 +84,60 @@ main {
 button.thumbnail {
   padding: 0;
 }
+
+.contact-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding-top: 10px;
+}
+
+.contact-info-container {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.contact-info-item {
+  flex: 50%;
+}
+
+.landing-background{
+  background-image: url("../public/images/Engineer-Background.png");
+  background-position: center;
+  background-size: 100%;
+  /* color: #fff; */
+  height: 100%;
+}
+.about-text-container{
+padding-left:  100px;
+padding-right:  100px;
+}
+.about-text-content{
+  font-size: 20px;
+}
+.container{
+  min-width: fit-content;
+}
+.project-image-left{
+  float: left;
+}
+.project-text-right{
+  float: right;
+}
+
+.project-image-right{
+  float: right;
+}
+.project-text-left{
+  float: left;
+}
+iframe {
+  display: block;     
+  background: #000;
+  border: none;       
+  height: 100vh;      
+  width: 95vw;
+}

@@ -34,8 +34,8 @@ import OrderListScreen from "./screens/OrderListScreen";
 import UserListScreen from "./screens/UserListScreen";
 import UserEditScreen from "./screens/UserEditScreen";
 import LandingScreen from "./screens/LandingScreen";
-import AboutScreen from "./screens/AboutScreen";
-import ContactScreen from "./screens/ContactScreen";
+import PortfolioScreen from "./screens/PortfolioScreen";
+import ResumeScreen from "./screens/ResumeScreen";
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -92,11 +92,11 @@ function App() {
                   <Link to="/shop" className="nav-link">
                     Shop
                   </Link>
-                  <Link to="/about" className="nav-link">
-                    About
+                  <Link to="/portfolio" className="nav-link">
+                    Portfolio
                   </Link>
-                  <Link to="/contact" className="nav-link">
-                    Contact
+                  <Link to="/resume" className="nav-link">
+                    Resume
                   </Link>
                   <Link to="/cart" className="nav-link">
                     Cart
@@ -173,7 +173,7 @@ function App() {
           </Nav>
         </div>
         <main>
-          <Container className="mt-3">
+          <Container>
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/cart" element={<CartScreen />} />
@@ -203,8 +203,8 @@ function App() {
               <Route path="/payment" element={<PaymentMethodScreen />}></Route>
               <Route path="/shop" element={<HomeScreen />} />
               <Route path="/" element={<LandingScreen />} />
-              <Route path="/about" element={<AboutScreen />} />
-              <Route path="/contact" element={<ContactScreen />} />
+              <Route path="/portfolio" element={<PortfolioScreen />} />
+              <Route path="/resume" element={<ResumeScreen />} />
               <Route
                 path="/profile"
                 element={
