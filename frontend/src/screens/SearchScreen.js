@@ -134,7 +134,7 @@ export default function SearchScreen() {
       </Helmet>
       <Row>
         <Col md={3}>
-          <h3>Department</h3>
+          <h3>Category</h3>
           <div>
             <ul>
               <li>
@@ -142,7 +142,7 @@ export default function SearchScreen() {
                   className={"all" === category ? "text-bold" : ""}
                   to={getFilterUrl({ category: "all" })}
                 >
-                  Any
+                  Show All
                 </Link>
               </li>
               {categories.map((c) => (
