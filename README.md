@@ -1,15 +1,12 @@
 # dat-website
 
-deployed on Heroku
-https://triangle-fabrications.herokuapp.com/
+deployed on Render
+https://triangle-fabrications.onrender.com/
 
+· Utilized MERN stack (MongoDB, Express.js, React.js, Node.js) to develop an ecommerce website for the client, providing seamless user experience and efficient data storage.
 
-· Created an ecommerce website for a client using the MERN stack with a ReactJS front end and a NodeJS backend that stores product and user information in MongoDB
+· Integrated PayPal payment gateway and order tracking system, enabling secure payment processing and real-time updates for customers.
 
-· Implemented PayPal payments and option to display and inform customers of order completion.
+· Developed intuitive and easy-to-use CRUD interface for managing products and users, improving efficiency and reducing errors.
 
-· Designed and implemented a user-friendly CRUD interface for managing products and users.
-
-· Created database tables in MongoDB to be used with CRUD API methods
-
-· Built a data representation model with google charts to summarize orders and users.
+· Designed and built a comprehensive data representation model using Google Charts, providing intuitive and visual summaries of order and user data.
