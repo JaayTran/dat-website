@@ -6,7 +6,6 @@
     "dev": "cd backend && npm run dev",
     "installdepend": "cd backend && npm install && cd ../frontend && npm install && cd ..",
     "build": "cd backend && npm run dev",
-    // "build": "cd backend && npm install  && cd ../frontend && npm install --force && npm run build ",
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
