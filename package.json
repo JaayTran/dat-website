@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cd backend && npm run dev",
-    "build": "concurrently \"cd backend && npm install && npm run server\" \"cd frontend && npm install --force && npm run build\"",
+    "build": "cd backend && npm install  && cd ../frontend && npm install --force && npm run build",
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,8 +18,5 @@
     "url": "https://github.com/JaayTran/dat-website/issues"
   },
   "homepage": "https://github.com/JaayTran/dat-website#readme",
-  "description": "Hey, I'm Michael, I make and sell 3D printed stuff",
-  "dependencies": {
-    "concurrently": "^7.6.0"
-  }
+  "description": "Hey, I'm Michael, I make and sell 3D printed stuff"
 }
