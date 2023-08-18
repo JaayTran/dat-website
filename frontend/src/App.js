@@ -89,7 +89,7 @@ function App() {
               <Navbar.Collapse id="basic-navbar-nav">
                 {/* <SearchBox /> */}
                 <Nav className="me-auto  w-100  justify-content-end">
-                  <Link to="/search" className="nav-link">
+                  <Link to="/shop" className="nav-link">
                     Shop
                   </Link>
                   <Link to="/portfolio" className="nav-link">
@@ -149,7 +149,7 @@ function App() {
             </Container>
           </Navbar>
         </header>
-        <div
+        {/* <div
           className={
             sidebarIsOpen
               ? "active-nav side-navbar d-flex justify-content-between flex-wrap flex-column"
@@ -165,7 +165,9 @@ function App() {
                 <LinkContainer
                   to={{
                     pathname: "/search",
-                    search: `?category=${category}`,
+                    search: `?category=${encodeURIComponent(
+                      category
+                    )}&query=all&price=all&rating=all&order=newest&page=1`,
                   }}
                   onClick={() => setSidebarIsOpen(false)}
                 >
@@ -174,7 +176,7 @@ function App() {
               </Nav.Item>
             ))}
           </Nav>
-        </div>
+        </div> */}
         <main>
           <Container>
             <Routes>
@@ -216,7 +218,7 @@ function App() {
                   </ProtectedRoute>
                 }
               />
-              <Route path="/search" element={<SearchScreen />} />
+              {/* <Route path="/search" element={<SearchScreen />} /> */}
               {/* Admin Routes */}
               <Route
                 path="/admin/dashboard"
