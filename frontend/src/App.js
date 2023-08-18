@@ -75,21 +75,21 @@ function App() {
         <header>
           <Navbar bg="dark" variant="dark" expand="lg">
             <Container>
-              <Button
+              {/* <Button
                 variant="dark"
                 onClick={() => setSidebarIsOpen(!sidebarIsOpen)}
               >
                 <i className="fas fa-bars"></i>
-              </Button>
+              </Button> */}
 
               <LinkContainer to="/">
                 <Navbar.Brand>Triangle Fabrications</Navbar.Brand>
               </LinkContainer>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <SearchBox />
+                {/* <SearchBox /> */}
                 <Nav className="me-auto  w-100  justify-content-end">
-                  <Link to="/shop" className="nav-link">
+                  <Link to="/search" className="nav-link">
                     Shop
                   </Link>
                   <Link to="/portfolio" className="nav-link">
@@ -266,7 +266,7 @@ function App() {
             </Routes>
           </Container>
         </main>
-        <footer>
+        <footer className="footer-colour">
           <div className="text-center">All rights reserved</div>
         </footer>
       </div>

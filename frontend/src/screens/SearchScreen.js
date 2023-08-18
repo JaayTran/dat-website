@@ -49,27 +49,27 @@ const prices = [
   },
 ];
 
-export const ratings = [
-  {
-    name: "4stars & up",
-    rating: 4,
-  },
+// export const ratings = [
+//   {
+//     name: "4stars & up",
+//     rating: 4,
+//   },
 
-  {
-    name: "3stars & up",
-    rating: 3,
-  },
+//   {
+//     name: "3stars & up",
+//     rating: 3,
+//   },
 
-  {
-    name: "2stars & up",
-    rating: 2,
-  },
+//   {
+//     name: "2stars & up",
+//     rating: 2,
+//   },
 
-  {
-    name: "1stars & up",
-    rating: 1,
-  },
-];
+//   {
+//     name: "1stars & up",
+//     rating: 1,
+//   },
+// ];
 
 export default function SearchScreen() {
   const navigate = useNavigate();
@@ -180,7 +180,7 @@ export default function SearchScreen() {
               ))}
             </ul>
           </div>
-          <div>
+          {/* <div>
             <h3>Avg. Customer Review</h3>
             <ul>
               {ratings.map((r) => (
@@ -202,7 +202,7 @@ export default function SearchScreen() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </Col>
         <Col md={9}>
           {loading ? (

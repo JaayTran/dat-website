@@ -59,6 +59,8 @@ main {
 /* sidebar */
 .navbar-brand {
   font-weight: bold;
+  min-height: 40px;
+  max-height: 40px;
 }
 .side-navbar {
   width: 240px;
@@ -104,23 +106,31 @@ button.thumbnail {
   flex: 50%;
 }
 
-.landing-background{
+.landing-background {
+  display: flex;
   background-image: url("../public/images/Engineer-Background.png");
   background-position: center;
-  background-size: 100%;
+  background-size: cover; /* Use 'cover' to make sure the background covers the entire element */
   /* color: #fff; */
-  min-height: 100%;
-  position: absolute;
-  left: 0;
+  min-height: calc(100vh - 80px); /* Use viewport height for full screen height */
 
+  overflow: hidden; /* Hide any overflow beyond the max-height */
+  position: relative; /* Changed to relative */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
-.about-text-container{
-padding-left:  100px;
-padding-right:  100px;
+
+
+
+.about-text-container {
+  padding: 0 100px; /* Combine padding declarations */
+  text-align: center; /* Align text content to center */
 }
-.about-text-content{
+
+.about-text-content {
   font-size: 20px;
 }
+
 .container{
   min-width: fit-content;
 }
@@ -137,10 +147,17 @@ padding-right:  100px;
 .project-text-left{
   float: left;
 }
+
 iframe {
   display: block;     
   background: #000;
   border: none;       
   height: 100vh;      
   width: 95vw;
+  overflow: hidden;
+}
+
+.footer-colour{
+  background: #212529;
+  color: white;
 }
